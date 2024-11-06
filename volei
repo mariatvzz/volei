@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .video {
+            margin: 10px 0;
+            max-width: 560px;
+            max-height: 315px;
+        }
+        .title {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #007bff;
+        }
+        a {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos</h1>
+
+    <div class="video-container">
+        <iframe class="video" 
+                src="https://www.youtube.com/embed/KdnsHlgvyOo" 
+                title="Video 1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <div class="title">Título do Vídeo 1</div>
+        <a href="https://youtu.be/KdnsHlgvyOo?si=TsVQkngeOut6vSbY" target="_blank">Assistir no YouTube</a>
+    </div>
+
+    <div class="video-container">
+        <iframe class="video" 
+                src="https://www.youtube.com/embed/I-15yykiwrc" 
+                title="Video 2" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <div class="title">Título do Vídeo 2</div>
+        <a href="https://youtu.be/I-15yykiwrc?si=tTYeBuWO679rZWTn" target="_blank">Assistir no YouTube</a>
+    </div>
+
+</body>
+</html>
